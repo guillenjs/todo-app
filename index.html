@@ -5,8 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
   
   <title>Frontend Mentor | Todo app</title>
+  <script defer src="index.js" type="text/javascript"></script>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,21 +18,32 @@
 </head>
 <body>
 
-  Todo
+<div class="content">  
+    <div class="header">
+      <p>TODO</p>
+      <img src="images/icon-sun.svg" />
+    </div>
 
-  <!-- Add dynamic number --> items left
-
-  All
-  Active 
-  Completed
-
-  Clear Completed
-
-  Drag and drop to reorder list
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="entry">
+    <button class="circle"></button>
+    <input/>
   </div>
+    
+    <div class="list">
+
+     <div class=todo-items></div>
+      <div>  
+        items left---dynamic
+        All
+        Active 
+        Completed
+      
+        Clear Completed
+      
+        Drag and drop to reorder list</div>
+    
+    </div>
+</div>
+ 
 </body>
 </html>
