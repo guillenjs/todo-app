@@ -10,7 +10,7 @@ body{
 }
 
 .content{
-   margin-top: 5%;
+   margin: 5% ;
 }
 
 .header{
@@ -22,10 +22,21 @@ body{
     letter-spacing: 10px;
 }
 
-.header img {
+svg {
     height: 20%;
     margin-top: auto;
     margin-bottom: auto;
+    transition: 0.5s;
+   
+}
+
+.night-mode:hover{
+   fill: #dd2d2d;
+   transform: scale(1.2);
+   border-radius: 100%;
+   background-color: white;
+   opacity: 50%;
+   box-shadow: 3px 3px rgb(101, 2, 131);
 }
 
 .entry{
